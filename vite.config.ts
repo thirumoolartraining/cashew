@@ -8,8 +8,11 @@ export default defineConfig(({ mode }) => {
   // Load environment variables based on the current mode
   const env = loadEnv(mode, process.cwd(), '');
   
+  const isProduction = mode === 'production';
+  const base = isProduction ? '/' : '/';
+
   return {
-    base: env.VITE_BASE_URL || '/',
+    base,
     server: {
       host: "::",
       port: 8080,
