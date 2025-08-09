@@ -23,7 +23,12 @@ const Contact = () => {
         <aside>
           <div className="rounded-lg border p-6 bg-secondary">
             <div className="font-medium mb-2">Our Office</div>
-            <p className="text-sm text-muted-foreground">Mangalore, Karnataka, India</p>
+            <p className="text-sm text-muted-foreground">
+              No: 46, Iyanar Koil Street<br />
+              Sivalingapuram<br />
+              Ariyankuppam, Pondicherry - 605007<br />
+              India
+            </p>
             <div className="mt-4 text-sm text-muted-foreground">Email: sales@rs-enterprises.com • Phone: +91 98765 43210</div>
           </div>
         </aside>
