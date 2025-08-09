@@ -1,10 +1,33 @@
-# Welcome to your Lovable project
+# R S Enterprises - E-commerce Platform
 
-## Project info
+## Project Overview
 
-**URL**: https://lovable.dev/projects/2bd60b2a-c106-47f2-a830-398ec6f1ad80
+R S Enterprises is a premium cashew nuts manufacturer and exporter with a modern e-commerce platform. This project is built with React, TypeScript, and Vite, featuring a responsive design for both B2C and B2B customers.
 
-## How can I edit this code?
+## Features
+
+- Modern, responsive e-commerce interface
+- B2C shopping experience
+- B2B quotation system
+- Product catalog with detailed views
+- Secure checkout process
+- Admin dashboard for order management
+
+## Tech Stack
+
+- **Frontend**: React 18, TypeScript, Vite
+- **Styling**: Tailwind CSS, shadcn/ui
+- **State Management**: React Query, React Context API
+- **Routing**: React Router v6
+- **UI Components**: Radix UI Primitives
+- **Build Tool**: Vite
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start development server: `npm run dev`
+4. Build for production: `npm run build`
 
 There are several ways of editing your application.
 
